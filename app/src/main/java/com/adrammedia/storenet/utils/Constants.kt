@@ -5,8 +5,8 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 
 object Constants {
-    const val BASE_URL ="http://192.168.1.29/Store/public/api/"
-    const val IMAGES_BASE_URL ="http://192.168.1.29/Store/public/"
+    const val BASE_URL ="http://127.0.0.1:8000/Store/public/api/"
+    const val IMAGES_BASE_URL ="http://127.0.0.1:8000/Store/public/"
     const val REGISTER_END_POINT ="users/register-new-user"
     const val LOGIN_END_POINT ="users/login"
     const val LOGOUT_END_POINT ="logout"
